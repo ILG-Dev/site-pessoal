@@ -38,6 +38,39 @@ header p {
     color: #9ca3af;
 }
 
+/* ===== Foto de perfil ===== */
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2563eb;
+    margin-bottom: 16px;
+}
+
+/* ===== Menu de navegação ===== */
+nav {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+}
+
+nav a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
 /* ===== Títulos de seção ===== */
 section h2 {
     font-size: 1.6rem;
@@ -138,5 +171,10 @@ footer {
 
     #habilidades ul {
         justify-content: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 12px;
     }
 }
